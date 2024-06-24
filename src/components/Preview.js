@@ -3,33 +3,36 @@ const Preview = ({ watch }) => {
     <div className="w-full p-5 pb-32 gap-3 border-2 border-slate-800">
       <h1 className="text-md lg:text-xl font-bold">Live Preview</h1>
 
-      {watch("title.preview") ? (
-        <div className="flex items-center gap-16 mb-10">
-          <h1 className="text-xl lg:text-3xl font-bold ">
-            {watch("title.value")}
-          </h1>
-          <span>
-            {watch("type.preview") ? (
-              <span className="text-sm border-2 border-slate-800 p-1 lg:p-3 rounded-3xl">{`${watch(
-                "type.value"
-              ).toUpperCase()}`}</span>
-            ) : (
-              ""
-            )}
-          </span>
-          <span>
-            {watch("model.preview") ? (
-              <span className="text-sm border-2 border-slate-800 p-1 lg:p-3 rounded-3xl">{`${watch(
-                "model.value"
-              ).toUpperCase()}`}</span>
-            ) : (
-              ""
-            )}
-          </span>
-        </div>
-      ) : (
-        ""
-      )}
+      <div className="flex items-center gap-16 mb-10">
+        {watch("title.preview") ? (
+          <div>
+            <h1 className="text-xl lg:text-3xl font-bold ">
+              {watch("title.value")}
+            </h1>
+          </div>
+        ) : (
+          ""
+        )}
+
+        <span>
+          {watch("type.preview") ? (
+            <span className="text-sm border-2 border-slate-800 p-1 lg:p-3 rounded-3xl">{`${watch(
+              "type.value"
+            ).toUpperCase()}`}</span>
+          ) : (
+            ""
+          )}
+        </span>
+        <span>
+          {watch("model.preview") ? (
+            <span className="text-sm border-2 border-slate-800 p-1 lg:p-3 rounded-3xl">{`${watch(
+              "model.value"
+            ).toUpperCase()}`}</span>
+          ) : (
+            ""
+          )}
+        </span>
+      </div>
 
       {watch("intro.preview") ? (
         <div className="flex gap-2 mb-8 items-center ">
