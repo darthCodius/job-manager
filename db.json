@@ -1,0 +1,347 @@
+{
+  "jobs": [
+    {
+      "status": true,
+      "title": {
+        "preview": true,
+        "value": "Node JS Developer SDE I"
+      },
+      "intro": {
+        "preview": true,
+        "value": "Backend Node Developer required for this immediately"
+      },
+      "responsibilities": {
+        "preview": false,
+        "value": "Backend Node Developer"
+      },
+      "experience": {
+        "preview": true,
+        "min": "2",
+        "max": "3"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Post Graduation"
+      },
+      "salary": {
+        "preview": true,
+        "value": "10 - 12 LPA"
+      },
+      "statement": {
+        "preview": true,
+        "value": "Concluding Statement"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": false,
+        "value": "partTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "fiveday"
+      },
+      "id": "2842"
+    },
+    {
+      "status": false,
+      "title": {
+        "preview": true,
+        "value": "React JS SDE III"
+      },
+      "intro": {
+        "preview": true,
+        "value": "React JS Developer sde immediately"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "React JS Developer required"
+      },
+      "experience": {
+        "preview": true,
+        "min": "1",
+        "max": "6"
+      },
+      "qualification": {
+        "preview": false,
+        "value": "Btech/MCA/Mtech"
+      },
+      "salary": {
+        "preview": false,
+        "value": "10-12 LPA"
+      },
+      "statement": {
+        "preview": false,
+        "value": "Statement Concluded"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": true,
+        "value": "contract"
+      },
+      "model": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "id": "1ff5"
+    },
+    {
+      "status": true,
+      "title": {
+        "preview": true,
+        "value": "MERN SDE I"
+      },
+      "intro": {
+        "preview": true,
+        "value": "Full Stack Developer in MERN Stack"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "Full Stack Developer"
+      },
+      "experience": {
+        "preview": true,
+        "min": "2",
+        "max": "3"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Btech/Mtech/MCA"
+      },
+      "salary": {
+        "preview": true,
+        "value": "10-12 LPA"
+      },
+      "statement": {
+        "preview": false,
+        "value": "Statement Concluded"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "fiveday"
+      },
+      "id": "10b6"
+    },
+    {
+      "status": false,
+      "title": {
+        "preview": true,
+        "value": "Java Developer SDE I"
+      },
+      "intro": {
+        "preview": false,
+        "value": "Java Developer immediate joiner"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "Java Developer"
+      },
+      "experience": {
+        "preview": true,
+        "min": "1",
+        "max": "4"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Post graduate"
+      },
+      "salary": {
+        "preview": true,
+        "value": "10 - 12 LPA"
+      },
+      "statement": {
+        "preview": true,
+        "value": "Statement"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "id": "1233"
+    },
+    {
+      "id": "9452",
+      "title": {
+        "preview": true,
+        "value": "Mean Stack Dev"
+      },
+      "status": false,
+      "intro": {
+        "preview": true,
+        "value": "Mean Stack Dev"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "Mean Stack Dev"
+      },
+      "experience": {
+        "preview": true,
+        "min": "2",
+        "max": "5"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Btech/Mtech"
+      },
+      "salary": {
+        "preview": true,
+        "value": "10 - 12 LPA"
+      },
+      "statement": {
+        "preview": true,
+        "value": "Statement"
+      },
+      "company": {
+        "preview": true,
+        "value": "Vagaro"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "fiveday"
+      }
+    },
+    {
+      "status": true,
+      "title": {
+        "preview": true,
+        "value": "Java Stack Developer SDE"
+      },
+      "intro": {
+        "preview": true,
+        "value": "Java Stack Developer"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "Java Stack Developer"
+      },
+      "experience": {
+        "preview": true,
+        "min": "2",
+        "max": "3"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Java Stack Developer"
+      },
+      "salary": {
+        "preview": true,
+        "value": "10 - 12 LPA"
+      },
+      "statement": {
+        "preview": true,
+        "value": "Java Stack Developer"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Delhi"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "fiveday"
+      },
+      "id": "caa7"
+    },
+    {
+      "id": "6c2a",
+      "title": {
+        "preview": true,
+        "value": "SAP Analyst"
+      },
+      "status": false,
+      "intro": {
+        "preview": true,
+        "value": "SAP Analyst immediate joiner"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "SAP Analyst for day to day activities"
+      },
+      "experience": {
+        "preview": true,
+        "min": "2",
+        "max": "5"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Post Graduation"
+      },
+      "salary": {
+        "preview": false,
+        "value": "10 - 12 LPA"
+      },
+      "statement": {
+        "preview": true,
+        "value": "Post Graduation"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "fiveday"
+      }
+    }
+  ]
+}
