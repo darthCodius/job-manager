@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import JobForm from "./JobForm";
-import Preview from "./Preview";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchJobs } from "../utils/jobSlice";
 import Shimmer from "./UI/Shimmer";
@@ -82,7 +81,7 @@ const MainBody = () => {
   if (status === "loading") return <Shimmer />;
 
   return (
-    <div className="grid grid-cols-[120px_1fr] lg:grid-cols-[200px_1fr_1fr] gap-3">
+    <div className="grid grid-cols-[120px_1fr_1fr] lg:grid-cols-[200px_1fr_1fr] gap-3">
       <div className="flex flex-col gap-2">
         <button
           onClick={handleNewJob}
@@ -106,7 +105,6 @@ const MainBody = () => {
         </ul>
       </div>
       <JobForm jobToEdit={jobToEdit} setJobToEdit={setJobToEdit} />
-      <Preview />
     </div>
   );
 };
