@@ -77,6 +77,15 @@ const Preview = ({ watch }) => {
         ""
       )}
 
+      {watch("salary.preview") ? (
+        <div className="flex gap-2 mb-8 items-center ">
+          <h1 className="text-lg font-semibold self-start">Salary Range: </h1>
+          <p>{watch("salary.value")}</p>
+        </div>
+      ) : (
+        ""
+      )}
+
       {watch("statement.preview") ? (
         <div className="flex gap-2 mb-8 items-center ">
           <h1 className="text-lg font-semibold self-start">
