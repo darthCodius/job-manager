@@ -48,7 +48,7 @@ const Preview = ({ watch }) => {
           <h1 className="text-lg font-semibold self-start">
             Roles & Responsibilities:{" "}
           </h1>
-          <p>{watch("responsibilities.value")}</p>
+          <p className="self-start">{watch("responsibilities.value")}</p>
         </div>
       ) : (
         ""
