@@ -1,6 +1,6 @@
 const Preview = ({ watch }) => {
   return (
-    <div className="w-full p-5 pb-32 gap-3 border-2 border-slate-800">
+    <div className="w-full h-fit p-5 pb-32 gap-3 border-2 border-slate-800">
       <h1 className="text-md lg:text-xl font-bold">Live Preview</h1>
 
       <div className="flex flex-col flex-wrap lg:flex-row lg:items-center gap-4 lg:gap-16 mb-10">
