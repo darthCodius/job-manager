@@ -7,13 +7,14 @@ import { useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { editForm } from "../helper/apiEditFormData";
 import Preview from "./Preview";
+import { MdDelete } from "react-icons/md";
+import { deleteJob } from "../helper/apiDeleteJob";
 
 const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
   const dispatch = useDispatch();
   const { id: editId, ...editValues } = jobToEdit;
   const isEditSession = Boolean(editId);
-  const { register, handleSubmit, formState, reset, watch, getValues } =
-    useForm();
+  const { register, handleSubmit, formState, reset, watch } = useForm();
   const { errors, isSubmitSuccessful } = formState;
 
   useEffect(() => {
@@ -53,6 +54,15 @@ const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
         })
         .catch((err) => console.log(err.message));
     }
+  };
+
+  const handleDeleteJob = (id) => {
+    console.log(id);
+
+    deleteJob(id).then(() => {
+      setJobToEdit({});
+      dispatch(fetchJobs());
+    });
   };
 
   return (
@@ -96,6 +106,16 @@ const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
             <span className="flex gap-2 items-center">
               <label htmlFor="status">Is Active?</label>
               <input type="checkbox" id="status" {...register("status")} />
+              {isEditSession && (
+                <button
+                  type="button"
+                  className="text-red-400 lg:text-2xl"
+                  title="Delete"
+                  onClick={() => handleDeleteJob(editId)}
+                >
+                  <MdDelete />
+                </button>
+              )}
             </span>
           </div>
 
