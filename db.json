@@ -244,6 +244,55 @@
         "value": "Remote"
       },
       "id": "9452"
+    },
+    {
+      "status": true,
+      "title": {
+        "preview": true,
+        "value": "SAP Analyst"
+      },
+      "intro": {
+        "preview": true,
+        "value": "SAP Analyst for an MNC"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "SAP Analyst for an MNC immediate joiner"
+      },
+      "experience": {
+        "preview": true,
+        "min": "2",
+        "max": "5"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "SAP Certified"
+      },
+      "salary": {
+        "preview": true,
+        "value": "14 - 18 LPA"
+      },
+      "statement": {
+        "preview": false,
+        "value": "Concluding Statement is required"
+      },
+      "company": {
+        "preview": true,
+        "value": "Infosys"
+      },
+      "location": {
+        "preview": true,
+        "value": "Bangalore"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "5-Day"
+      },
+      "id": "61e0"
     }
   ]
 }
