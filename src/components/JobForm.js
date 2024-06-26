@@ -383,8 +383,8 @@ const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
                 {...register("model.preview")}
               />
               <select id="model" name="model" {...register("model.value")}>
-                <option value="fullTime">Is Remote</option>
-                <option value="fiveday">5 Day week</option>
+                <option value="Remote">Is Remote</option>
+                <option value="5-Day Working">5 Day week</option>
               </select>
             </div>
           </div>
