@@ -8,6 +8,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { editForm } from "../helper/apiEditFormData";
 import Preview from "./Preview";
 import { MdDelete } from "react-icons/md";
+import { HiMiniDocumentDuplicate } from "react-icons/hi2";
 import { deleteJob } from "../helper/apiDeleteJob";
 
 const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
@@ -65,6 +66,14 @@ const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
     });
   };
 
+  const handleDuplicateJob = (data) => {
+    submitJobData(data)
+      .then(() => {
+        dispatch(fetchJobs());
+      })
+      .catch((err) => console.log(err.message));
+  };
+
   return (
     <>
       <div className="w-full">
@@ -107,14 +116,25 @@ const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
               <label htmlFor="status">Is Active?</label>
               <input type="checkbox" id="status" {...register("status")} />
               {isEditSession && (
-                <button
-                  type="button"
-                  className="text-red-400 lg:text-2xl"
-                  title="Delete"
-                  onClick={() => handleDeleteJob(editId)}
-                >
-                  <MdDelete />
-                </button>
+                <>
+                  <button
+                    type="button"
+                    className="text-red-400 lg:text-2xl"
+                    title="Delete"
+                    onClick={() => handleDeleteJob(editId)}
+                  >
+                    <MdDelete />
+                  </button>
+
+                  <button
+                    type="button"
+                    className="text-slate-800 lg:text-2xl"
+                    title="Duplicate"
+                    onClick={() => handleDuplicateJob(editValues)}
+                  >
+                    <HiMiniDocumentDuplicate />
+                  </button>
+                </>
               )}
             </span>
           </div>
