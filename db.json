@@ -293,6 +293,153 @@
         "value": "5-Day"
       },
       "id": "61e0"
+    },
+    {
+      "id": "c972",
+      "status": true,
+      "title": {
+        "preview": true,
+        "value": "MERN SDE I"
+      },
+      "intro": {
+        "preview": true,
+        "value": "Full Stack Developer in MERN Stack"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "Full Stack Developer"
+      },
+      "experience": {
+        "preview": true,
+        "min": "2",
+        "max": "3"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Btech/Mtech/MCA"
+      },
+      "salary": {
+        "preview": true,
+        "value": "10-12 LPA"
+      },
+      "statement": {
+        "preview": false,
+        "value": "Statement Concluded"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "5-Day"
+      }
+    },
+    {
+      "id": "e880",
+      "status": true,
+      "title": {
+        "preview": true,
+        "value": "Node JS Developer SDE I"
+      },
+      "intro": {
+        "preview": true,
+        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer it has seen. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer it has seen. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer it has seen. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer it has seen."
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b standard dummy Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer it has seen. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer it has seen. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer it has seen."
+      },
+      "experience": {
+        "preview": true,
+        "min": "2",
+        "max": "3"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Post Graduation"
+      },
+      "salary": {
+        "preview": true,
+        "value": "10 - 12 LPA"
+      },
+      "statement": {
+        "preview": true,
+        "value": "Concluding Statement"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "5-Day"
+      }
+    },
+    {
+      "id": "4841",
+      "status": false,
+      "title": {
+        "preview": true,
+        "value": "Java Developer SDE I"
+      },
+      "intro": {
+        "preview": false,
+        "value": "Java Developer immediate joiner"
+      },
+      "responsibilities": {
+        "preview": true,
+        "value": "Java Developer"
+      },
+      "experience": {
+        "preview": true,
+        "min": "1",
+        "max": "4"
+      },
+      "qualification": {
+        "preview": true,
+        "value": "Post graduate"
+      },
+      "salary": {
+        "preview": true,
+        "value": "10 - 12 LPA"
+      },
+      "statement": {
+        "preview": true,
+        "value": "Statement"
+      },
+      "company": {
+        "preview": true,
+        "value": "TCS"
+      },
+      "location": {
+        "preview": true,
+        "value": "Pune"
+      },
+      "type": {
+        "preview": true,
+        "value": "fullTime"
+      },
+      "model": {
+        "preview": true,
+        "value": "5-Day"
+      }
     }
   ]
 }
