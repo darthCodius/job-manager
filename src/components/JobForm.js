@@ -115,6 +115,7 @@ const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
               id="introduction"
               className={`self-center w-full ${inputPrimary} `}
               name="introduction"
+              rows={8}
               {...register("intro.value", {
                 required: {
                   value: true,
@@ -147,6 +148,7 @@ const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
               id="responsibilities"
               className={`self-center w-full ${inputPrimary}`}
               name="responsibilities"
+              rows={8}
               {...register("responsibilities.value", {
                 required: {
                   value: true,
@@ -384,7 +386,7 @@ const JobForm = ({ jobToEdit = {}, setJobToEdit }) => {
               />
               <select id="model" name="model" {...register("model.value")}>
                 <option value="Remote">Is Remote</option>
-                <option value="5-Day Working">5 Day week</option>
+                <option value="5-Day">5 Day week</option>
               </select>
             </div>
           </div>
